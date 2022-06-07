@@ -13,3 +13,11 @@ Description: Just a Bootstrap5 Project built from scratch.
 /* Wordpress Theme Development Hierchy see here -> https://developer.wordpress.org/files/2014/10/Screenshot-2019-01-23-00.20.04.png */
 /* Important Link -> https://developer.wordpress.org/themes/basics/template-hierarchy/ */
 
+body {
+    background-color: #000;
+    background: #000;
+}
+
+a {
+    color: red;
+}
