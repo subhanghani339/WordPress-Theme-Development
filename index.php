@@ -5,7 +5,7 @@
 
 <?php
 
-    echo "TEST Is Succeeded";
+    echo the_title();
 
 ?>
 
