@@ -5,7 +5,7 @@
 
 <?php
 
-    echo "TEST";
+    echo "TEST Is Succeeded";
 
 ?>
 
