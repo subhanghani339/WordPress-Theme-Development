@@ -14,8 +14,8 @@ Description: Just a Bootstrap5 Project built from scratch.
 /* Important Link -> https://developer.wordpress.org/themes/basics/template-hierarchy/ */
 
 body {
-    background-color: #000;
-    background: #000;
+    background-color: white;
+    background: white;
 }
 
 a {
