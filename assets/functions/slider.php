@@ -14,17 +14,6 @@
 Don't delete this because of register_post_type which brings back the post in gallery
 */
 
-function andgo__home_carousel_slider(){
-    add_theme_support('post-thumbnail');
-
-    register_post_type('andgocaroselpost',array(
-        "labels" => array(
-            name => "Andgo Silder"),
-        ));
-}
-
-
-
 function andgo_home_carousel_slider(){
     add_theme_support('post-thumbnails');
 
