@@ -4,7 +4,7 @@
     Plugin Name: Bootstrap5 Slider Gallery
     Plugin URI:
     Description: A plugin made to display the latest post dynamically
-    Version:1.0
+    Version: 1.0
     Author: Subhan Ghani
     Author URI:
     License: GPL2
