@@ -28,19 +28,18 @@ get_header();
                 <div class="carousel-item active" data-bs-interval="1000">
                 <?php else : ?>
                     <div class="carousel-item">
-                    <?php endif; ?>
-                    <a href="<?php the_permalink() ?>"><?php the_title(); ?><?php echo the_content('medium', array(
-                       'class' => 'text-center img-fluid shadow-5-strong rounded-5 mb-1 d-block w-100 h-100',
-                       'loading' => 'lazy',
-                       'alt' => 'post-thumbnail',
-                       'style' => 'max-width:600px;max-height:500px;'
-                   )); ?>                                         
+                      <?php endif; ?>
+                      <a href="<?php the_permalink() ?>"><?php the_title(); ?><?php echo the_content('medium', array(
+                        'class' => 'text-center img-fluid shadow-5-strong rounded-5 mb-1 d-block w-100 h-100',
+                        'loading' => 'lazy',
+                        'alt' => 'post-thumbnail',
+                        'style' => 'max-width:600px;max-height:500px;'
+                        )); ?>                                         
                         <div class="carousel-caption d-none d-md-block">
                             <h5><?php wp_title(); ?></h5>
-
                         </div>
                     </div>
-                <?php
+                  <?php
             endwhile;
                 ?>
                 </div>
