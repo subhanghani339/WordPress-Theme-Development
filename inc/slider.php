@@ -36,7 +36,7 @@ get_header();
                         'style' => 'max-width:600px;max-height:500px;'
                         )); ?>                                         
                         <div class="carousel-caption d-none d-md-block">
-                            <h5><?php wp_title(); ?></h5>
+                            <h5><?php the_title(); ?></h5>
                         </div>
                     </div>
                   <?php
