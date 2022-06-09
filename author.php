@@ -12,7 +12,10 @@ $curauth = (isset($_GET['author_name'])) ? get_user_by('slug', $author_name) : g
         <div class="card-img-top">
             <?php echo get_avatar($curauth->user_email, '90'); ?>
         </div>
-        <p><strong>Website:</strong> <a href="<?php echo $curauth->user_url; ?>"><?php echo $curauth->user_url; ?></a><br />
+        <p><strong>Website:</strong> 
+        <a href="<?php echo $curauth->user_url; ?>">
+            <?php echo $curauth->user_url; ?>
+        </a><br />
             <strong>Bio:</strong> <?php echo $curauth->user_description; ?>
         </p>
     </div>
@@ -23,21 +26,17 @@ $curauth = (isset($_GET['author_name'])) ? get_user_by('slug', $author_name) : g
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-        <div class="col-lg-12 text-center" style="justify-content: center;">
-            <div class="container-fluid ">
+        <div class="col-lg-4 col-md-6 col-sm-6 text-center" style="justify-content:center; display:inline-block;">
+            <div class="container-fluid">
                 <div class="card">
                     <div class="card-body">
-
                         <p class="card-text"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link: <?php the_title(); ?>">
-                                <?php the_title(); ?></a></p>
-                        <p>Posted on: <?php the_time('d M Y'); ?></p>
-
+                            <?php the_title(); ?></a></p>
+                        <p style="color:black;">Posted on: <?php the_time('M Y'); ?></p>
                     </div>
                 </div>
             </div>
-
-
-
+        </div>
         <?php endwhile;
 
     // Previous/next page navigation.
