@@ -7,7 +7,7 @@ get_header();
 
 global $wpdb;
 
-    $post_id = 12; // your post id
+    $post_id = 1; // your post id
     
     $post_author_id = (int) $wpdb->get_var( $wpdb->prepare( "SELECT post_author FROM {$wpdb->posts} WHERE ID = %d ", $post_id ) );
     

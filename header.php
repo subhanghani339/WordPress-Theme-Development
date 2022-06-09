@@ -23,15 +23,15 @@ wp_head();
 
         ?>
 
-        <?php
-          wp_nav_menu(array(
-            'theme_location' => 'Andgo Top Menu',
-            'container_class' => 'andgo-top-nav-class',
-            'menu_id' => 'andgo-top-nav',
-            'menu_class' => 'top-nav-class',
-          ));
+        <!-- <?php
+          // wp_nav_menu(array(
+          //   'theme_location' => 'Andgo Top Menu',
+          //   'container_class' => 'andgo-top-nav-class',
+          //   'menu_id' => 'andgo-top-nav',
+          //   'menu_class' => 'top-nav-class',
+          // ));
 
-        ?>
+        ?> -->
       
       <!-- <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
