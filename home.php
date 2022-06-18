@@ -11,10 +11,9 @@ get_header();
 ?>
         <div class="col-md-6 gx-5">
             <a href="<?php the_permalink() ?>">
-
                 <img class="img-fluid rounded-1 shadow-5-strong" style="max-height:150px; max-width:150px" src="<?php echo the_post_thumbnail_url('thumbnail') ?>" />
                 <p style="float:right;"><?php echo the_title(); ?></br>
-                    <?php the_time('l, F jS, Y'); ?></p>
+                <?php the_time('l, F jS, Y'); ?></p>
             </a>
         </div>
     <?php endwhile;;

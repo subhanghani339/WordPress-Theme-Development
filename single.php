@@ -144,6 +144,6 @@ echo 'No comments found.';
 
 <?php
 include('search.php');
-include('comment.php');
+// include('comment.php');
 get_footer();
 ?>
