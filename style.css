@@ -21,3 +21,7 @@ body {
 a {
     color: red;
 }
+
+p{
+    color:black !important;
+}
