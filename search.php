@@ -26,7 +26,7 @@ Template Name: Search Page
     ?>
           <div class="col-lg-8 gx-5">
               <a href="<?php the_permalink() ?>">
-                  <p style="float:right;"><?php echo the_title(); ?></br>
+                  <p style="float:right; color:black;"><?php echo the_title(); ?></br>
                       <?php the_time('l, F jS, Y'); ?></p>
               </a>
           </div>
